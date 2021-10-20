@@ -4,6 +4,7 @@ import microServico.ententies.Usuario;
 import microServico.services.UsuarioServices;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
@@ -13,7 +14,7 @@ public class MicroServicoTest implements CommandLineRunner{
     UsuarioServices usuarioServices;
 
     public static void main(String[] args) {
-        SpringBootApplication.run(MicroServicoTest.class, args);
+        SpringApplication.run(MicroServicoTest.class, args);
 
     }
 
